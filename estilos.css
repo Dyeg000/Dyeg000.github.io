@@ -1,0 +1,118 @@
+.navbar {
+    background-color: #333; /* un color oscuro para la navbar */
+    padding: 1rem;
+    position: fixed; /* hacer que la navbar sea fija en la parte superior */
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* asegurarse de que la navbar esté encima de otros elementos */
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff; /* texto blanco para la marca */
+}
+
+.navbar-nav {
+    margin-left: auto; /* alinear los items de la navbar a la derecha */
+}
+
+.navbar-text {
+    color: #fff; /* texto blanco para el texto de la navbar */
+}
+
+
+
+.navbar {
+    background-color: #ffbdbd; /* replace with your desired color */
+}
+
+
+
+
+
+
+/* Estilos carousel */
+
+.carousel-item {
+    height: 500px; /* Ajusta este valor al tamaño deseado */
+    overflow: hidden;
+}
+.carousel-item img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+/* fin Estilos carousel */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* INICIO ESTILOS DE LAS CARDS */
+
+.card {
+    border:black;
+    box-shadow: 0 5px 8px 0 rgba(253, 237, 159, 0.2);
+    transition: 0.7s; 
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(255, 209, 2, 0.2); /* Da un color de fondo al libro cuando el cursor del mouse pase por encima de este */
+}
+
+.card img {
+    height: 300px;
+    object-fit:contain;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 1rem;
+    line-height: 2.0;
+}
+
+.btn-primary {
+    background-color: #e3fc00;
+    border-color: #00a2ff;
+}
+
+.btn-primary:hover {
+    background-color: #0069d9;
+    border-color: #ef0303;
+}
+/* FIN ESTILOS DE LAS CARDS */
